@@ -46,10 +46,10 @@ If you haven’t used tinyurl.com before, please try creating a new shortened UR
 - Return HTTP status 400 for an invalid request
 
 ### GET /:urlCode
-- Redirect to the original URL corresponding
+- Redirect to the original URL corresponding.
 - Use a valid HTTP status code meant for a redirection scenario.
-- Return a suitable error for a url not found
-- Return HTTP status 400 for an invalid request
+- Return a suitable error for a url not found.
+- Return HTTP status 400 for an invalid request.
 
 ## Testing 
 - To test these apis create a new collection in Postman named Project 4 Url Shortner
