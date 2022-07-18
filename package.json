@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Avijitd07/Project-4_URLShortner#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "express": "^4.18.1",
     "mongoose": "^6.4.4",
     "nodemon": "^2.0.19",
