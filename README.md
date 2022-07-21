@@ -59,8 +59,8 @@ If you haven’t used tinyurl.com before, please try creating a new shortened UR
 
 ## Phase II
 - Use caching while creating the shortened url to minimize db calls.
-- Implement what makes sense to you and we will build understanding over the demo discussion. 
-- Figure out if you can also use caching while redirecting to the original url from the shortedned url
+- Implement what makes sense to you and we will build understanding over the demo discussion.
+- Figure out if you can also use caching while redirecting to the original url from the shortedned url.
 
 ## Response
 

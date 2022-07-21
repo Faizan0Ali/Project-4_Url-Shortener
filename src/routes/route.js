@@ -8,7 +8,7 @@ router.get("/:urlCode", urlController.getUrl)  // --> to redirect to the origina
 
 
 router.all("/**", function (req, res) {
-    res.status(400).send({ status: false, message: "This URL is not valid" })
+    return res.status(400).send({ status: false, message: "invalid URL" })
 })
 
 
