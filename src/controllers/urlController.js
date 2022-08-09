@@ -16,7 +16,6 @@ const isvalid = function (x) {
     return true;
 }
 
-
 //Connect to redis
 
 const redisClient = redis.createClient(
@@ -93,7 +92,5 @@ const getUrl = async function (req, res) {
         return res.status(500).send({ status: false, message: err.message })
     }
 }
-
-
 
 module.exports = { urlShortener, getUrl }  // --> exporting the functions
